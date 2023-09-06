@@ -1,0 +1,71 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Times New Roman", serif;
+
+    background-color: #fff5f5;
+}
+
+footer {
+    padding: 0;
+    margin: 10vh 0 0;
+
+    width: 100vw;
+    height: 5vh;
+
+    background-color: rgb(128, 128, 128);
+}
+
+.footer-txt {
+    text-align: center;
+}
+
+#pg-content {
+    background-color: #fff5f5;
+}
+
+#header {
+    width: 100vw;
+    height: 5vh;
+
+    position: sticky;
+}
+
+#title {
+    padding-top: 2vh;
+
+    text-align: center;
+}
+
+#titlescreen {
+    background-image: url("/assets/placeholderBG.png");
+
+    margin: auto;
+
+    width: 80vw;
+    height: 60vh;
+}
+
+#welcome-txt {
+    text-align: center;
+
+    padding-top: 15vh;
+
+    font-size: 20px;
+}
+
+#intro-segment {
+    width: 80vw;
+
+    margin: 15vh auto auto;
+}
+
+.intro-txt {
+    text-align: center;
+}
