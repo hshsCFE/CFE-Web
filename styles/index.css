@@ -39,7 +39,7 @@ footer {
     padding: 0;
     margin: 10vh 0 0;
 
-    width: 100vw;
+    width: auto;
     height: 5vh;
 
     background-color: rgb(128, 128, 128);
@@ -54,7 +54,7 @@ footer {
 }
 
 #header {
-    width: 100vw;
+    width: auto;
     height: 4.5vh;
 
     position: sticky;
@@ -73,7 +73,7 @@ footer {
 }
 
 #title-segment {
-    width: 100vw;
+    width: auto;
 
     padding-top: 2vh;
     padding-bottom: 2vh;
