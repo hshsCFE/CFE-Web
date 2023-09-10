@@ -1,0 +1,57 @@
+#caption-space {
+    background-color: #13467F;
+
+    height: 30vh;
+    width: 100vw;
+}
+
+#caption {
+    font-size: 50px;
+
+    color: white;
+
+    padding: 4rem 1rem 1rem;
+
+    text-align: center;
+}
+
+#subcaption {
+    font-size: 45px;
+
+    color: #ffb20d;
+
+    padding: 2rem;
+
+    text-align: center;
+}
+
+#cr-segment {
+    height: 60vh;
+    width: 100vw;
+
+    font-size: 20px;
+}
+
+.cr-cat {
+    margin: 1vw;
+}
+
+#cr-group {
+    width: 80vw;
+
+    margin-left: 10vw;
+}
+
+.center-group {
+    background-color: #b4b4b4;
+}
+
+.general-group {
+
+}
+
+.grade-ti {
+    margin-bottom: 5vh;
+
+    text-align: center;
+}

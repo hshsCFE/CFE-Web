@@ -1,0 +1,32 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-parent {
+    display: inline-flex;
+}
+
+.flex-child {
+    flex: 1;
+}
