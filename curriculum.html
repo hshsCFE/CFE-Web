@@ -6,6 +6,7 @@
     <link href="./styles/index.css" rel="stylesheet">
     <link href="./styles/curriculum.css" rel="stylesheet">
     <link href="./styles/defaults.css" rel="stylesheet">
+    <script type="module" src="./scripts/curriculum.js" defer></script>
 </head>
 <body>
     <div id="pg-content">
@@ -26,84 +27,126 @@
             <p id="caption">Center for Engineering</p>
             <p id="subcaption">Standard Curriculum</p>
         </div>
+        <div id="criteria" class="txt-center">
+            <p class="criteria-title">Criteria</p>
+            <ul>
+                <li class="txt-center criteria-li">Prior to enrolling in this center students must have a sucessful completion of Algebra I</li>
+                <li class="txt-center criteria-li">All students must successfully complete the Economics and Personal Finance course.</li>
+            </ul>
+        </div>
         <div id="cr-segment">
             <ul id="cr-group" class="flex-parent">
                 <li class="flex-child cr-cat">
-                    <div class="grade-ti">
-                        <p>Grade 9</p>
+                    <div class="grade-ti cat-spaced">
+                        <p class="section-title">Grade 9</p>
                     </div>
-                    <div class="center-group">
-                        <p>Center Classes:</p>
+                    <div class="center-group cat-spaced">
+                        <p class="section-header">Center Classes</p>
 
                         <ul>
-                            <li></li>
+                            <li>Foundations of Engineering and Design</li>
+                            <li>*Engineering Mathematics I</li>
+                            <li>Engineering Science I Honors</li>
+                            <li>Technical Drawing/ Design/CAD</li>
+                            <li>Engineering Drawing/Design/CAD</li>
                         </ul>
                     </div>
-                    <div class="general-group">
-                        <p>General Classes:</p>
+                    <div class="general-group cat-spaced">
+                        <p class="section-header">General Classes</p>
 
                         <ul>
-                            <li></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex-child cr-cat">
-                    <div class="grade-ti">
-                        <p>Grade 10</p>
-                    </div>
-                    <div class="center-group">
-                        <p>Center Classes:</p>
-
-                        <ul>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="general-group">
-                        <p>General Classes:</p>
-
-                        <ul>
-                            <li></li>
+                            <li>English 9 Honors</li>
+                            <li>World History and Geography I Honors</li>
+                            <li>Health and P.E.</li>
+                            <li>World Language</li>
                         </ul>
                     </div>
                 </li>
                 <li class="flex-child cr-cat">
-                    <div class="grade-ti">
-                        <p>Grade 11</p>
+                    <div class="grade-ti cat-spaced">
+                        <p class="section-title">Grade 10</p>
                     </div>
-                    <div class="center-group">
-                        <p>Center Classes:</p>
+                    <div class="center-group cat-spaced">
+                        <p class="section-header">Center Classes</p>
 
                         <ul>
-                            <li></li>
+                            <li>Engineering I </li>
+                            <li>Engineering Analysis and Applications Honors I</li>
+                            <li>Engineering Mathematics II</li>
+                            <li>*Engineering Science II</li>
                         </ul>
                     </div>
-                    <div class="general-group">
-                        <p>General Classes:</p>
+                    <div class="general-group cat-spaced">
+                        <p class="section-header">General Classes</p>
 
                         <ul>
-                            <li></li>
+                            <li>English 10 Honors</li>
+                            <li>World History and Geography II Honors</li>
+                            <li>Health and P.E.</li>
+                            <li>World Language</li>
+                            <li>Optional Semester Electives – (2 if P.E. taken in summer)</li>
+                            <li>Economics and Personal Finance</li>
                         </ul>
                     </div>
                 </li>
                 <li class="flex-child cr-cat">
-                    <div class="grade-ti">
-                        <p>Grade 12</p>
+                    <div class="grade-ti cat-spaced">
+                        <p class="section-title">Grade 11</p>
                     </div>
-                    <div class="center-group">
-                        <p>Center Classes:</p>
+                    <div class="center-group cat-spaced">
+                        <p class="section-header">Center Classes</p>
 
                         <ul>
-                            <li></li>
+                            <li>AP Chemistry</li>
+                            <li>Engineering II</li>
+                            <li>Pre-Calculus/Trig. AP </li>
+                            <li>AP Calculus AB</li>
+                            <li>Practicum in Engineering I (optional)</li>
+                            <li>Aerospace Technology (optional)</li>
                         </ul>
                     </div>
-                    <div class="general-group">
-                        <p>General Classes:</p>
+                    <div class="general-group cat-spaced">
+                        <p class="section-header">General Classes</p>
 
                         <ul>
-                            <li></li>
+                            <li>AP English 11</li>
+                            <li>AP Virginia and United States History</li>
+                            <li>World Language</li>
+                            <li>Electives</li>
                         </ul>
                     </div>
                 </li>
+                <li class="flex-child cr-cat">
+                    <div class="grade-ti cat-spaced">
+                        <p class="section-title">Grade 12</p>
+                    </div>
+                    <div class="center-group cat-spaced">
+                        <p class="section-header">Center Classes</p>
+
+                        <ul>
+                            <li>Engineering Design and Methods (cluster of four dual enrollment courses)</li>
+                            <li>Practicum in Engineering I or II (optional)</li>
+                            <li>AP Calculus BC </li>
+                            <li>AP Calculus AB</li>
+                            <li>AP Physics C</li>
+                            <li>Aerospace Technology (optional)</li>
+                        </ul>
+                    </div>
+                    <div class="general-group cat-spaced">
+                        <p class="section-header">General Classes</p>
+
+                        <ul>
+                            <li>AP English 12</li>
+                            <li>AP Virginia and United States Government</li>
+                            <li>World Language</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="course-desc">
+            <p id="description-btn">Course Descriptions</p>
+            <ul id="course-list-parent">
             </ul>
         </div>
     </div>

@@ -29,8 +29,29 @@
     text-align: center;
 }
 
+#criteria {
+    margin: 2vh auto;
+    padding: 1em;
+
+    width: 80vw;
+
+    border: 2px dashed #3B4656;
+    border-radius: 15px;
+
+    background-color: #d1d8e3;
+}
+
+.criteria-title {
+    font-size: 30px;
+}
+
+.criteria-li {
+    font-size: 20px;
+}
+
+
 #cr-segment {
-    height: 60vh;
+    height: 70vh;
     width: auto;
 
     font-size: 20px;
@@ -38,6 +59,13 @@
 
 .cr-cat {
     margin: 1vw;
+
+    height: 50vh;
+
+    background-color: #efefef;
+
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 #cr-group {
@@ -46,8 +74,22 @@
     margin-left: 10vw;
 }
 
+.section-title {
+    font-size: 30px;
+}
+
+.section-header {
+    font-size: 25px;
+
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
 .center-group {
     background-color: #b4b4b4;
+    border-radius: 5px;
+
+    margin-bottom: 2vh;
 }
 
 .general-group {
@@ -55,7 +97,53 @@
 }
 
 .grade-ti {
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 
+    text-align: center;
+}
+
+.cat-spaced {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#course-desc {
+    width: auto;
+}
+
+#description-btn {
+    text-align: center;
+
+    font-size: 25px;
+
+    padding: 0.7em;
+    margin: auto;
+
+    width: 10vw;
+
+    background-color: #13467F;
+    border-radius: 20px;
+
+    color: #efefef;
+
+    transition: 0.15s;
+}
+
+#description-btn:hover {
+    background-color: #1d67bb;
+
+    transform: scale(1.03);
+}
+
+.course-list-parent {
+
+}
+
+.course-list-child {
+    text-align: center;
+}
+
+.course-description {
+    font-size: 20px;
     text-align: center;
 }
