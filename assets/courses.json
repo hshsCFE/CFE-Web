@@ -1,10 +1,10 @@
-{
-  "course1": {
+[
+  {
     "name": "Foundations of Engineering Design ex1",
     "url": "https://docs.google.com/document/d/13V30n5OeBA2UMYCVzCmBrgH5Tq7BDAryZ-Bi4QbQL4c/edit#heading=h.b5v418bptpel"
   },
-  "course2": {
+  {
     "name": "Foundations of Engineering Design ex2",
     "url": "https://docs.google.com/document/d/13V30n5OeBA2UMYCVzCmBrgH5Tq7BDAryZ-Bi4QbQL4c/edit#heading=h.b5v418bptpel"
   }
-}
+]

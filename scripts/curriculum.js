@@ -11,11 +11,9 @@ function addCourse(content) {
     courseList.appendChild(newCourse);
 }
 
-
-
 descriptionBtn.addEventListener("click", (event) => {
     for (let i in courses) {
-        let input = '<a class="course-description" href="' + courses.course[i].url + '">' + courses.course[i].name + '</a>';
+        let input = '<a class="course-description" href="' + courses[i].url + '">' + courses[i].name + '</a>';
 
         addCourse(input)
     }
