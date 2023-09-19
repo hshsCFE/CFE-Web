@@ -1,0 +1,93 @@
+#table {
+    margin: auto;
+    padding-top: 5em;
+
+    width: 80vw;
+
+    font-size: 30px;
+
+    background-color: white;
+}
+
+#table-top {
+    background-color: #3B4656;
+
+    color: white;
+}
+
+#table-bottom {
+    background-color: white;
+
+    color: black;
+
+    padding-bottom: 1em;
+}
+
+.table-1 {
+    background-color: #d1d8e3;
+}
+
+#subjects {
+    margin-left: auto;
+
+    border-radius: 15px;
+    border: 2px solid;
+
+    overflow: hidden;
+}
+
+#subjects * {
+    padding: 0.15em;
+}
+
+.category {
+    margin-left: 5vw;
+
+    width: 55vw;
+}
+
+.credits {
+    margin-left: 8vw;
+}
+
+.v-credits {
+    width: 5vw;
+}
+
+#more-reqs {
+    margin: 5em auto auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    background-color: #eeeeee;
+
+    border-radius: 30px;
+
+    width: 80vw;
+}
+
+#req-title {
+    color: #1b5596;
+
+    text-align: center;
+
+    font-size: 35px;
+
+    margin-bottom: 1em;
+}
+
+#add-req-ul {
+    margin: auto;
+
+    width: 75vw;
+
+    list-style-type: armenian;
+
+    text-align: center;
+
+    font-size: 25px;
+}
+
+.req-li {
+    padding: 0.3em;
+}

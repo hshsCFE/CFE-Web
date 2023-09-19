@@ -1,6 +1,10 @@
 #pages {
     background-color: #13467F;
 
+    padding-right: 5vw;
+
+    width: auto;
+
     border: none;
     border-bottom: 1px solid white;
 }
@@ -10,7 +14,7 @@
 }
 
 .pg-link-btn {
-    padding: 1rem 1vw;
+    padding: 1rem 0.7vw;
 
     color: white;
 }
