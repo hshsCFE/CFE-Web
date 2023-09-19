@@ -55,11 +55,18 @@ footer {
 
 #header {
     width: auto;
-    height: 4.5vh;
-
-    position: sticky;
+    height: 2.7em;
 
     background-color: #3B4656;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+
+    transition: 1s;
 }
 
 #title {
