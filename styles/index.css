@@ -1,16 +1,12 @@
 #pages {
     background-color: #13467F;
 
-    padding-right: 5vw;
+    width: 100vw;
 
-    width: auto;
-
+    float: left;
+    
     border: none;
     border-bottom: 1px solid white;
-}
-
-#buttons {
-    margin-left: 75vw;
 }
 
 .pg-link-btn {
@@ -20,6 +16,10 @@
 }
 
 .pg-link {
+    margin-left: auto;
+
+    text-align: center;
+
     padding: 1rem;
 
     color: white;
@@ -28,6 +28,8 @@
 }
 
 .pg-link:hover{
+    z-index: 1;
+
     background-color: #1b5596;
 }
 
@@ -60,6 +62,8 @@ footer {
 #header {
     width: auto;
     height: 2.7em;
+
+    z-index: 3;
 
     background-color: #3B4656;
 }

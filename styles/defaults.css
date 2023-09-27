@@ -24,7 +24,9 @@ ul {
 }
 
 .flex-parent {
-    display: inline-flex;
+    display: flex;
+
+    flex-wrap: wrap;
 }
 
 .flex-child {
