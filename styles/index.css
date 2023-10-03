@@ -1,10 +1,10 @@
 #pages {
     background-color: #13467F;
 
-    width: 100vw;
+    width: 100%;
 
     float: left;
-    
+
     border: none;
     border-bottom: 1px solid white;
 }
