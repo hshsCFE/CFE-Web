@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CFE-Web.iml" filepath="$PROJECT_DIR$/.idea/CFE-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/movable.iml" filepath="$PROJECT_DIR$/.idea/movable.iml" />
     </modules>
   </component>
 </project>
